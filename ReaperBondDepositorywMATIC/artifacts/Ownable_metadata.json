@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipPulled",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipPushed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "policy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pullManagement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner_",
+						"type": "address"
+					}
+				],
+				"name": "pushManagement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceManagement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CyberBondWBNB/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CyberBondWBNB/IOwnable.sol": {
+			"keccak256": "0x523b8240980c044cf366968116d8ecbbf9859f7d81b524a6918ef2e920d31542",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://a723e9077420f422dfa82b29aed0810b336ff7c01fbea59facb320c06e88b7eb",
+				"dweb:/ipfs/QmcGN7fiKxeWANHr7GNo1j1yoKaRWE3MTDteJmo2UhSbGk"
+			]
+		},
+		"CyberBondWBNB/Ownable.sol": {
+			"keccak256": "0x85bfae13fefdee7404731f9235041b12d9cfd4a8ab212828e4d5d7a5c0f3aeec",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://a17a05bcc06672bc0706ff9a21cad64759d67365f6454f4c29a304dd82d5e8d0",
+				"dweb:/ipfs/QmNVHwQG4du1VjpcUPCtLhQHNsbrZfRkJitddMYCm4aX4j"
+			]
+		}
+	},
+	"version": 1
+}
